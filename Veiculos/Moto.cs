@@ -8,9 +8,6 @@ namespace FactoryMethod.Veiculos
 {
     public class Moto : IVeiculo
     {
-        public Moto()
-        {
-        }
 
         public void GetCarga()
         {
