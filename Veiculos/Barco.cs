@@ -8,7 +8,6 @@ namespace FactoryMethod.Veiculos
 {
     public class Barco : IVeiculo
     {
-
         public void GetCarga()
         {
             Console.WriteLine("Carga em Container");

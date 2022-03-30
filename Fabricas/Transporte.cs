@@ -8,12 +8,13 @@ namespace FactoryMethod.Fabricas
 {
     abstract class Transporte
     {
+        protected abstract IVeiculo CriarTransporte();
+
         public void IniciarTransporte()
         {
             IVeiculo veiculo = CriarTransporte();
             veiculo.IniciaRota();
         }
 
-        protected abstract IVeiculo CriarTransporte();
     }
 }
