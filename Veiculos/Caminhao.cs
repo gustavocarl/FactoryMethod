@@ -13,7 +13,7 @@ namespace FactoryMethod.Veiculos
             Console.WriteLine("Carga em Caixa");
         }
 
-        public void IniciaRota()
+        public void TipoDeRota()
         {
             GetCarga();
             Console.WriteLine("Viagem Terrestre");

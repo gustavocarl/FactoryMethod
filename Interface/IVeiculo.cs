@@ -9,6 +9,6 @@ namespace FactoryMethod
     public interface IVeiculo
     {
         void GetCarga();
-        void IniciaRota();
+        void TipoDeRota();
     }
 }

@@ -7,7 +7,7 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            void Transporte()
+            static void Transporte()
             {
                 Console.WriteLine("Selecione um tipo de serviço");
                 Console.WriteLine();

@@ -13,7 +13,7 @@ namespace FactoryMethod.Fabricas
         public void IniciarTransporte()
         {
             IVeiculo veiculo = CriarTransporte();
-            veiculo.IniciaRota();
+            veiculo.TipoDeRota();
         }
 
     }
