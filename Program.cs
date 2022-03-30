@@ -11,8 +11,8 @@ namespace FactoryMethod
             {
                 Console.WriteLine("Selecione um tipo de serviço");
                 Console.WriteLine();
-                Console.WriteLine("1 - Carro");
-                Console.WriteLine("2 - Moto");
+                Console.WriteLine("1 - Caminhão");
+                Console.WriteLine("2 - Barco");
 
                 string opcao = Console.ReadLine();
                 Transporte transporte = null;
@@ -20,11 +20,11 @@ namespace FactoryMethod
                 switch (opcao)
                 {
                     case "1":
-                        transporte = new CarroTransporte();
+                        transporte = new CaminhaoTransporte();
                         break;
 
                     case "2":
-                        transporte = new MotoTransporte();
+                        transporte = new BarcoTransporte();
                         break;
                 }
 

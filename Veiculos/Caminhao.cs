@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Veiculos
 {
-    public class Moto : IVeiculo
+    public class Caminhao : IVeiculo
     {
-
         public void GetCarga()
         {
-            Console.WriteLine("Receber Carga");
+            Console.WriteLine("Carga em Caixa");
         }
 
         public void IniciaRota()
         {
             GetCarga();
-            Console.WriteLine("Iniciar Entrega");
+            Console.WriteLine("Viagem Terrestre");
         }
+
     }
 }

@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace FactoryMethod.Fabricas
 {
-    class CarroTransporte : Transporte
+    class BarcoTransporte : Transporte
     {
         protected override IVeiculo CriarTransporte()
         {
-            return new Carro();
+            return new Barco();
         }
     }
 }
